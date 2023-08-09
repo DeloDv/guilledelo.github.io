@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheat Sheet</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="#000000">
+        <ul>
+            <li><a href="#text">Text</a></li>
+            <li><a href="#t-tags">Table Tags</Table></a></li>
+            <li><a href="#t-att">Table attributes</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+        <div id="text">
+            <h1>Text</h1>
+            <table width="800" cellpadding="20" cellspacing="2" style="margin: 0 auto;">
+            <thead>
+                <tr id="theader">
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tag">&lt;b&gt;</td>
+                    <td>Bold</td>
+                    <td>Sirve para poner el texto en negrita.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;i&gt;</td>
+                    <td>Italic</td>
+                    <td>Srive para poner el texto en cursiva.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;sup&gt;</td>
+                    <td>Superscript</td>
+                    <td>Sirve para superponer texto. Ej: 2<sup>th</sup></td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;sub&gt;</td>
+                    <td>Subscript</td>
+                    <td>Sirve para sobreponer texto. Ej: 2<sub>23</sub></td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;br&gt;</td>
+                    <td>Line Breaks</td>
+                    <td>Sirve para romper una linea.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;hr&gt;</td>
+                    <td>Horizontal Rules</td>
+                    <td>Sirve para crear una linea horizontal entre dos parrafos.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;q&gt;</td>
+                    <td>Quotation</td>
+                    <td>Sirve para poner cualquier texto entre comillas.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;abbr&gt;</td>
+                    <td>Abbreviations</td>
+                    <td>Sirve para abreviar cualquier texto.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;cite&gt;</td>
+                    <td>Citations</td>
+                    <td>Indica dónde está la citación.</td>
+                </tr>
+                <tr>
+                    <td class="tag">&lt;address&gt;</td>
+                    <td>Author Details</td>
+                    <td>Contiene los detalles del autor de la pagina.</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div id="t-tags">
+            <h1>Table Tags</h1>
+            <table width="800" cellpadding="20" cellspacing="2" style="margin: 0 auto;">
+                <thead>
+                    <tr id="theader">
+                        <th scope="col">Tag</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>The Table element is used to create a table. The contents of the table are written out row by row</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The headings of the table should sit inside the &lt;thead&gt; element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The body of the table should sit inside the &lt;tbody&gt; element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tfoot&gt;</td>
+                        <td>Table Footer</td>
+                        <td>The footer of the table should sit inside the &lt;tfoot&gt; element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>You indicate the start of each row. It is followed buy 1 or more &lt;td&gt; elements.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>Each cell of a table is represented using a &lt;td&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;th&gt;</td>
+                        <td>Table Heading</td>
+                        <td>Is used just like the &lt;td&gt; element but its purpose is to represent the heading for either a column or a row. (Si usamos &lt;th scope="col"&gt; pondremos el texto en negrita)</td>
+                    </tr>
+                </tbody>      
+            </table>
+        </div>
+        <div id="t-att">
+            <h1>Table attributes</h1>
+            <table width="800" cellpadding="20" cellspacing="2" style="margin: 0 auto;">
+                <thead>
+                    <tr id="theader">
+                        <th scope="col">Attribute</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element shd span</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element shd span</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">width (dentro de &lt;table&gt;)</td>
+                        <td>Width</td>
+                        <td>How wide that table shd be.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">cellpading (dentro de &lt;table&gt;)</td>
+                        <td>Cellpading</td>
+                        <td>To add space inside each cell of the table.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">cellspacing (dentro de &lt;table&gt;)</td>
+                        <td>Cellspacing</td>
+                        <td>to create space between each cell of the table.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">border (dentro de &lt;table&gt;)</td>
+                        <td>Border</td>
+                        <td>To indicate de width of the border in pixel.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">bgcolor (dentro de &lt;table&gt;)</td>
+                        <td>Background color</td>
+                        <td>To indicate background colors of either the entire table or individual table cells.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="links">
+            <h1>Links</h1>
+            <table width="800" cellpadding="20" cellspacing="2" style="margin: 0 auto;">
+                <thead>
+                    <tr id="theader">
+                        <th scope="col">Tag</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;a&gt;</td>
+                        <td>Absolute URLS</td>
+                        <td>&lt;a href=""&gt;&lt;/a&gt;</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">mailto:</td>
+                        <td>Email Links</td>
+                        <td>Create a link that starts up the user´s email program and addresses an email to a specified email address. &lt;a href="mailto:ccc@gmail.com"&gt;ccc&lt;/a&gt;</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">target="_blank"</td>
+                        <td>New Window</td>
+                        <td>Inside &lt;a&gt;, open the link in a new window</td>
+                    </tr>
+                </tbody>      
+            </table>
+        </div>
+    </body>
+</html>
