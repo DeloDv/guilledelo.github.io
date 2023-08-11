@@ -1,0 +1,163 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+/* Header */
+
+header, body {
+    background-color: black;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.nav {
+    float: right;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#logo {
+    padding: 10px;
+    height: 50px;
+    float: left;
+}
+
+/* Body */
+
+/* Mission */
+
+
+
+/* Contenedor de la imagen de fondo */
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+/* Fondo negro detrás del texto */
+.overlay {
+    position: absolute; /* Posición absoluta para cubrir toda la imagen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Contenido de texto */
+.content {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno alrededor del contenido de texto */
+    margin: 0 10px; /* Margen horizontal para separar el texto del borde */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    width: 100vw; /* Ancho de la ventana del navegador */
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+/* Featured Tea */
+h2{
+    font-size: 30px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.image-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+}
+
+.image-box {
+    text-align: center;
+    margin: 10px;
+}
+
+.image-box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-box p {
+    margin-top: 10px;
+}
+
+/* Locatios */
+
+.location-container {
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+.black-squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.square h3 p{
+    text-align: center;
+}
+
+/* footer */
+
+.contact {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    float: left;
+    padding: 20px;
+}
